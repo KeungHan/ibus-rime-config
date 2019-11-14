@@ -1,0 +1,13 @@
+var:
+  last_build_time: 1573628425
+  option:
+    extended_charset: true
+    simplification: false
+  previously_selected_schema: cangjie6
+  schema_access_time:
+    bopomofo: 1573567648
+    cangjie5: 1568173080
+    cangjie6: 1573567658
+    luna_pinyin: 1568428499
+    stroke: 1568428239
+    terra_pinyin: 1568428510

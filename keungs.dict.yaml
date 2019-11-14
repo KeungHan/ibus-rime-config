@@ -1,0 +1,65 @@
+# encoding: utf-8
+
+# 單字碼表自百度貼吧「倉頡」吧網友风易辞得
+# 又：
+# 蒼頡六代構詞碼碼表
+# 由雪齋、惜緣整理於 2013-01-29
+# crazy4u根据雪齋發佈的碼表增二萬餘字 2013-02-19
+# crazy4u增易經八卦符號 2013-03-26
+# 單字編碼兼顧宋體、細明體字形 crazy4u 2013-04-02
+# 又增一千字 crazy4u 2013-04-27
+# 增加組詞分隔符、正體字字頻 雪齋 2013-05-30
+# 採用相對字頻 雪齋 2013-12-09
+
+# 本字表收中日韓越統一表意文字及其擴展A、B、C、D區另加相容表意文字區之12箇獨立字。
+# 取碼依宋體及明體。另：擴展B區有四個重複收錄字，本表錄之，但加「#」註。
+
+# License: GPL
+---
+name: keungs
+version: "0.28"
+#sort: by_weight
+sort: original
+use_preset_vocabulary: true
+min_phrase_weight: 100
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  rules:
+    - length_equal: 2
+      formula: AaAzBaBbBz
+    - length_equal: 3
+      formula: AaAzBaYzZz
+    - length_in_range: [4, 5]
+      formula: AaBzCaYzZz
+  tail_anchor: "'"
+import_tables:
+          - cangjie6
+...
+日	a	1
+税	hdcru	2
+脱	bcru	1000
+个	ol	2
+随	nlykb	2
+忆	pn	2
+换	qnbk	2
+条	hed	2
+难	eog	2
+会	omi	2
+内	ob	2
+坠	nog	2
+滚	eycv	2
+种	hdl	2
+峰	uhej	2
+刹	kdln	2
+焕	fnbk	2
+遥	ybou	2
+谁	iuog	2
+摇	qbou	2
+进	ytt	2
+吗	rsm	2
+龄	xuoni	2
+什	oj	2
